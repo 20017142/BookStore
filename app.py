@@ -276,7 +276,8 @@ if __name__ == '__main__':
     port = 8080
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind(('localhost', port))
-    app.run(debug=True)
+    #app.run(debug=True)
+app.run(host='0.0.0.0', port='8080')
 
 
 #if __name__ == "__main__":
