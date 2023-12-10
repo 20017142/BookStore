@@ -273,12 +273,10 @@ def update():
 
 if __name__ == '__main__':
     locale.setlocale(locale.LC_ALL, 'fr_FR.UTF-8')
-    port = 8080
-server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.bind(('localhost', port))
-    #app.run(debug=True)
-app.run(host='0.0.0.0', port='8080')
+   app.run(debug=True)
+
 
 
 #if __name__ == "__main__":
 # app.run(host='0.0.0.0', port='8080')
+
